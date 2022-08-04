@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top:10px;
+}
+
+header .logo{
+    margin-left: 30px;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+header nav a{
+    text-decoration: navy;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff
+}
+
+.carrosel-img{
+    margin-top: 10px;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
