@@ -38,7 +38,8 @@ header nav a:hover{
 }
 
 .carrosel-img{
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .box{
@@ -46,3 +47,70 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+.caixa{
+    background-color: blue;
+    display: flexbox;
+    flex-direction: column;
+    width: 258px;
+    height: 92px;
+}
+.caixa:hover{
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0 0 .1em;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .carousel {
+      justify-content: flex-start;
+      overflow: hidden;
+    padding: 40px 0;
+      position: relative;
+      width: 100vw;
+  }
+  
+  .carousel > .container {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+      transform: translate3d(0, 0, 0);
+      transition: transform 600ms;
+  }
+  
+  .carousel > nav {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      text-align: center;
+      width: 100vw;
+      z-index: 1;
+  }
+  
+  .carousel > nav a {
+      color: white;
+      font-size: 14px;
+      opacity: .2;
+      text-decoration: none;
+  }
+  
+  .carousel > nav a:hover {
+      opacity: .5;
+  }
+  
+  .carousel > nav a.current {
+      opacity: 1;
+  }
+  
+  .carousel .slide {
+      flex-shrink: 0;
+      line-height: 1.4;
+      text-align: center;
+      width: 100vw;
+  }
