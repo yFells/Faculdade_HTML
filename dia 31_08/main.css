@@ -1,0 +1,32 @@
+
+.carta{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(52, 184, 184);
+    justify-content: center;
+    align-items: center;
+}
+.titulos{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genero{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(5, 49, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duracao{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(19, 153, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
